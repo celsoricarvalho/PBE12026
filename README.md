@@ -24,6 +24,11 @@ Javascript/
 │   ├── package.json
 │   ├── padaria_nova.js
 │   └── strings.js
+├── Aula 3/
+│   ├── balada.js
+│   ├── notas.js
+│   ├── package.json
+│   └── velocidade.js
 └── README.md
 ```
 
@@ -42,6 +47,11 @@ npm install
 
 ```bash
 cd "Aula 2"
+npm install
+```
+
+```bash
+cd "Aula 3"
 npm install
 ```
 
@@ -66,7 +76,15 @@ node strings.js
 node padaria_nova.js
 ```
 
-> Alguns arquivos, como `imc.js`, `produtos.js` e `padaria_nova.js`, solicitam dados no terminal. Digite as informações quando solicitado.
+### Aula 3
+```bash
+cd "Aula 3"
+node velocidade.js
+node balada.js
+node notas.js
+```
+
+> Alguns arquivos, como `imc.js`, `produtos.js`, `padaria_nova.js`, `velocidade.js`, `balada.js` e `notas.js`, solicitam dados no terminal. Digite as informações quando solicitado.
 
 ## Resumo dos exercícios
 
@@ -81,6 +99,11 @@ node padaria_nova.js
 ### Aula 2
 - `strings.js`: estudo de template strings para concatenar valores de forma mais clara.
 - `padaria_nova.js`: sistema de troco para uma padaria, com cálculo do valor total e do troco a ser devolvido.
+
+### Aula 3
+- `velocidade.js`: exercício com estrutura condicional para verificar a velocidade e calcular a multa.
+- `balada.js`: validação de idade para liberar ou negar o acesso a uma balada.
+- `notas.js`: cálculo de média escolar e classificação do aluno em aprovado, recuperação ou reprovado.
 
 ## Exemplos de comandos
 ```bash
