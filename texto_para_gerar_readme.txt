@@ -1,0 +1,14 @@
+Analise todo o workspace aberto, incluindo as pastas Aula1 e Aula 2.
+
+Crie ou atualize o arquivo README.md na raiz do projeto com:
+
+- título do repositório;
+- descrição do projeto;
+- tecnologias utilizadas;
+- estrutura de pastas;
+- resumo dos exercícios de cada aula;
+- instruções para executar os arquivos com Node.js;
+- instruções de Git;
+- autor: Prof. Celso Ricardo Carvalho.
+
+Leia os arquivos existentes antes de escrever o README.
