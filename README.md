@@ -1,43 +1,107 @@
-# PBE12026 - Exercícios de JavaScript
+# PBE12026 - Backend Node.js Exercícios
 
-## Descrição
-Este repositório reúne exercícios introdutórios de JavaScript e Node.js desenvolvidos durante as aulas de programação. O projeto aborda conceitos básicos como variáveis, tipos de dados, entrada e saída no terminal, cálculos matemáticos, template strings e interação com o usuário.
+## Descrição do projeto
+
+Este repositório contém exercícios de programação backend em JavaScript usando Node.js, organizados por aulas. O projeto inclui exemplos de entrada e saída no terminal, manipulação de variáveis, cálculos matemáticos, controle de fluxo e uso de bibliotecas simples como `readline-sync`.
 
 ## Tecnologias utilizadas
-- JavaScript
+
 - Node.js
+- JavaScript
 - npm
-- readline-sync
+- Biblioteca `readline-sync` para entrada de dados no terminal
 
 ## Estrutura de pastas
-```text
-Javascript/
-├── Aula1/
-│   ├── app.js
-│   ├── imc.js
-│   ├── ola_mundo.js
-│   ├── package.json
-│   ├── padaria.js
-│   ├── produtos.js
-│   └── variaveis.js
-├── Aula 2/
-│   ├── package.json
-│   ├── padaria_nova.js
-│   └── strings.js
-├── Aula 3/
-│   ├── balada.js
-│   ├── notas.js
-│   ├── package.json
-│   └── velocidade.js
-└── README.md
+
+- `Aula1/` - Exercícios introdutórios com variáveis, `console.log` e cálculos simples.
+- `Aula 2/` - Exercícios de entrada de dados, processamento e saída formatada.
+- `Aula 3/` - Exercícios com controle de fluxo usando `if`, `else if` e `else`.
+- `node_modules/` - Dependências instaladas pelo npm.
+- `package.json` - Configuração do projeto e dependências.
+- `package-lock.json` - Versão travada das dependências.
+- `texto_para_gerar_readme.txt` - Instruções para gerar o README.
+
+## Resumo dos exercícios
+
+### Aula 1
+
+- `ola_mundo.js` - Exibe uma mensagem simples no console.
+- `app.js` - Exemplo básico com variáveis e saída de dados.
+- `variaveis.js` - Demonstração de diferentes tipos de variáveis e uso de `typeof`.
+- `padaria.js` - Calcula o valor total de uma venda simples de padaria.
+- `produtos.js` - Sistema de vendas que recebe dados do usuário e calcula o total.
+- `imc.js` - Calculadora de IMC com entrada de nome, peso e altura usando `readline-sync`.
+
+### Aula 2
+
+- `strings.js` - Mostra concatenação de strings e template strings.
+- `padaria_nova.js` - Sistema de troco para padaria, que calcula total e troco.
+
+### Aula 3
+
+- `balada.js` - Verifica a idade e libera ou nega acesso à balada.
+- `notas.js` - Calcula a média de duas notas e exibe a situação do aluno.
+- `velocidade.js` - Avalia a multa de trânsito com base na velocidade.
+
+## Instruções para executar os arquivos com Node.js
+
+1. Abra o terminal na pasta `PBE12026`.
+2. Instale as dependências, se ainda não estiverem instaladas:
+
+```bash
+npm install
 ```
 
-## Requisitos
-Antes de executar os arquivos, certifique-se de ter instalado:
-- Node.js
-- npm
+3. Execute um script específico com Node.js:
 
-## Instalação
+```bash
+node Aula1/ola_mundo.js
+node Aula1/app.js
+node Aula1/variaveis.js
+node Aula1/padaria.js
+node Aula1/produtos.js
+node Aula1/imc.js
+node "Aula 2"/strings.js
+node "Aula 2"/padaria_nova.js
+node "Aula 2"/imc.js
+node "Aula 3"/balada.js
+node "Aula 3"/notas.js
+node "Aula 3"/velocidade.js
+```
+
+4. Para scripts que usam `readline-sync`, responda às perguntas exibidas no terminal.
+
+## Instruções de Git
+
+1. Inicialize o repositório (se ainda não estiver inicializado):
+
+```bash
+git init
+```
+
+2. Adicione todos os arquivos:
+
+```bash
+git add .
+```
+
+3. Faça um commit com uma mensagem descritiva:
+
+```bash
+git commit -m "Adicionar README e exercícios de Node.js"
+```
+
+4. Caso use um repositório remoto, conecte e envie:
+
+```bash
+git remote add origin <URL_DO_REPOSITORIO>
+git push -u origin main
+```
+
+## Autor
+
+Prof. Celso Ricardo Carvalho
+
 Acesse cada pasta da aula e instale as dependências:
 
 ```bash
