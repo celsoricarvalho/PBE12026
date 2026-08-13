@@ -1,4 +1,4 @@
-Analise todo o workspace aberto, incluindo as pastas Aula1 e Aula 2.
+Analise todo o workspace aberto, incluindo as pastas Aula1 a Aula 5.
 
 Crie ou atualize o arquivo README.md na raiz do projeto com:
 
