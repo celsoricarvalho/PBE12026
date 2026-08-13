@@ -39,6 +39,7 @@ Thumbs.db
 *.temp
 *.bak
 *.orig
+texto_para_gerar_readme.txt
 
 # Arquivos de lock do pacote (mantenha estes versionados em projetos npm/yarn)
 # package-lock.json
