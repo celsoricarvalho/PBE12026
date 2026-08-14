@@ -20,3 +20,6 @@ if (
 } else {
     console.log("ACESSO NEGADO");
 }
+
+console.log("\nPressione ENTER para fechar...");
+entrada.question();
