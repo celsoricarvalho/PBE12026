@@ -1,8 +1,9 @@
 function checarTemperatura(valor) {
     if (valor > 40) {
         return "ALERTA: Caldeira Superaquecida ⚠️";
-    }
+    }else {
     return "Temperatura Normal ✅";
+    }
 }
 
 function checarUmidade(valor) {
@@ -12,4 +13,7 @@ function checarUmidade(valor) {
     return "Umidade Normal ✅";
 }
 
-module.exports = { checarTemperatura, checarUmidade };
+module.exports = { 
+    checarTemperatura,
+    checarUmidade 
+};

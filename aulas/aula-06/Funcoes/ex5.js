@@ -2,13 +2,13 @@ const entrada = require('readline-sync');
 
 // Função que calcula 15% de desconto
 function calcularDesconto(precoOriginal) {
-    return precoOriginal * 0.85; // Retorna 85% do valor (ou seja, 15% de desconto)
+    return precoOriginal * 0.3; // Retorna 85% do valor (ou seja, 15% de desconto)
 }
 
 const produtos = ["Monitor", "Teclado", "Mouse"];
 const precos = [800, 150, 80];
 
-console.log("=== TABELA DE PRECOS COM DESCONTO (15%) ===");
+console.log("=== TABELA DE PRECOS DROGA RAIA ===");
 
 for (let i = 0; i < produtos.length; i++) {
     // Usamos a mesma função para cada item do array!

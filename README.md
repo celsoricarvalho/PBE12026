@@ -20,56 +20,29 @@ Este projeto reúne atividades de lógica de programação, variáveis, estrutur
 - Git e GitHub para versionamento
 
 ## 📁 Estrutura do projeto
-
 ```text
 PBE12026/
-├── .gitignore
 ├── package.json
-├── package-lock.json
 ├── README.md
 ├── node_modules/
 ├── aulas/
 │   ├── aula-01/
-│   │   ├── app.js
-│   │   ├── imc.js
-│   │   ├── ola_mundo.js
-│   │   ├── padaria.js
-│   │   ├── produtos.js
-│   │   ├── variaveis.js
-│   │   └── package.json
 │   ├── aula-02/
-│   │   ├── imc.js
-│   │   ├── padaria_nova.js
-│   │   ├── strings.js
-│   │   └── package.json
 │   ├── aula-03/
-│   │   ├── balada.js
-│   │   ├── notas.js
-│   │   ├── velocidade.js
-│   │   └── package.json
 │   ├── aula-04/
-│   │   ├── contador.js
-│   │   ├── contador_for.js
-│   │   ├── desafio_etanol.js
-│   │   ├── desafio_foguete.js
-│   │   ├── desafio_natacao.js
-│   │   ├── desafio3.js
-│   │   ├── desafios/
-│   │   │   └── desafio3.js
-│   │   ├── ex1.js
-│   │   ├── menu_padaroa.js
-│   │   └── tabuada.js
 │   ├── aula-05/
-│   │   ├── array.js
-│   │   ├── array1.js
-│   │   ├── array2.js
-│   │   ├── ex1.js
-│   │   └── sistema.js
 │   ├── aula-06/
-│   │   └── (em desenvolvimento)
-│   └── aula-07/
-│       └── (em desenvolvimento)
-└── .idea/
+│   ├── aula-09/
+│   ├── aula-12/
+│   └── exercicios-fixacao/
+│       ├── atividade-1/
+│       ├── atividade-2/
+│       ├── atividade-3/
+│       ├── atividade-4/
+│       ├── atividade-5/
+│       ├── atividade-6/
+│       ├── geometria.js
+│       └── main.js
 ```
 
 ## 📚 Resumo das aulas
@@ -115,9 +88,52 @@ PBE12026/
 - Exemplos de uso de `.length`
 - Exercícios com nomes de alunos
 
-### Aula 06 e Aula 07
+### Aula 06, Aula 09 e Aula 12
 
-- Acompanhamento das próximas atividades e desafios do curso.
+- Aula 06: funções e exercícios práticos (pastas e exemplos em `aulas/aula-06`).
+- Aula 09: consultas e manipulação de arquivos (`aula-09`).
+- Aula 12: projetos mais estruturados (p.ex. `oficina` e `logistica` em `aulas/aula-12`).
+
+## 🧩 Exercícios de Fixação
+
+As pastas em `aulas/exercicios-fixacao` reúnem atividades extras para consolidar conceitos. Atualmente incluem:
+
+
+- `atividade-1` — exemplos e exercícios iniciais (veja `aulas/exercicios-fixacao/atividade-1`).
+  - Arquivos principais: `app.js`, `conversor.js`
+  - Executar:
+    - `node aulas/exercicios-fixacao/atividade-1/app.js`
+    - `node aulas/exercicios-fixacao/atividade-1/conversor.js`
+
+- `atividade-2` — exercícios sobre geometria e lógica (veja `aulas/exercicios-fixacao/atividade-2`).
+  - Arquivos principais: `geometria.js`, `main.js`
+  - Executar:
+    - `node aulas/exercicios-fixacao/atividade-2/geometria.js`
+    - `node aulas/exercicios-fixacao/atividade-2/main.js`
+
+- `atividade-3` — integrações com módulos e sensores (veja `aulas/exercicios-fixacao/atividade-3`).
+  - Arquivos principais: `principal.js`, `sensor.js`
+  - Executar:
+    - `node aulas/exercicios-fixacao/atividade-3/principal.js`
+
+- `atividade-4` — aplicações práticas (caixa, calculadora de vendas) (veja `aulas/exercicios-fixacao/atividade-4`).
+  - Arquivos principais: `caixa.js`, `calculosVendas.js`
+  - Executar:
+    - `node aulas/exercicios-fixacao/atividade-4/caixa.js`
+
+- `atividade-5` — qualidade e validações (veja `aulas/exercicios-fixacao/atividade-5`).
+  - Arquivos principais: `qualidade.js`
+  - Executar:
+    - `node aulas/exercicios-fixacao/atividade-5/qualidade.js`
+
+- `atividade-6` — exemplo de portaria e controle (veja `aulas/exercicios-fixacao/atividade-6`).
+  - Arquivos principais: `portaria.js`
+  - Executar:
+    - `node aulas/exercicios-fixacao/atividade-6/portaria.js`
+
+- `geometria.js` e `main.js` — utilitários e exemplos de uso (na raiz de `aulas/exercicios-fixacao`).
+
+Observação: se algum exercício usar `readline-sync`, instale dependências com `npm install` na raiz do projeto antes de executar.
 
 ## ▶️ Como executar os arquivos
 
@@ -195,12 +211,6 @@ Prof. Celso Ricardo Carvalho
 
 Este repositório está em evolução conforme os exercícios e desafios do curso forem sendo desenvolvidos.
 
-node "Aula 2/padaria_nova.js"
-node "Aula 3/notas.js"
-node Aula4/tabuada.js
-node Aula5/array2.js
-```
-
 Observação: Alguns arquivos usam `readline-sync` para entrada no terminal; garantir que as dependências estejam instaladas com `npm install` antes de executar.
 
 **Instruções básicas de Git**
@@ -229,8 +239,4 @@ git add <arquivos>
 git commit -m "Mensagem descritiva"
 git push
 ```
-
-**Autor**
-
-Prof. Celso Ricardo Carvalho
 >>>>>>> 5f1103d819df874da81779a5c97ee7b636f29346

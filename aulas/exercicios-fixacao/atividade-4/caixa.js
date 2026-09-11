@@ -1,5 +1,5 @@
 const entrada = require('readline-sync');
-const venda = require('./calculosVenda');
+const venda = require('./calculosVendas');
 
 const nomeCli = entrada.question("Nome do cliente: ");
 const precoProd = entrada.questionFloat("Preco do produto: ");
